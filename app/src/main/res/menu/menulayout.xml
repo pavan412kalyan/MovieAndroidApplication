@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+<item android:id="@+id/search_bar"
+    android:title="Search"
+    android:icon="@mipmap/searchicon"
+    app:showAsAction="ifRoom"
+    app:actionViewClass="android.support.v7.widget.SearchView"/>
+<item
+    android:title="TV"
+    android:icon="@drawable/ic_tv_black_24dp"
+    android:id="@+id/tv"
+    app:showAsAction="always" />
+    <item
+        android:title="IMDB 250"
+        android:id="@+id/imdbtop"
+        app:showAsAction="never" />
+    <item
+        android:title="nowplaying M"
+
+        android:id="@+id/mnowplaying"
+        app:showAsAction="never" />
+    <item
+    android:title="Popular Movies"
+
+    android:id="@+id/popularMovies"
+    app:showAsAction="never" />
+    <item
+    android:title="Top Rated"
+
+    android:id="@+id/topratedmovie"
+    app:showAsAction="never" />
+    <item
+    android:title="Upcomingmovies"
+
+    android:id="@+id/upcomingmovie"
+    app:showAsAction="never" />
+
+
+
+
+</menu>
+

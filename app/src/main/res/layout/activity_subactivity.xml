@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subactivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Loading TITLE....."
+     android:textColor="@color/colorAccent"
+     android:textSize="40sp"
+     android:id="@+id/Title"/>
+
+        <ImageView
+
+            android:id="@+id/Poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/demoimage" />
+  <LinearLayout
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+      <TextView
+
+          android:id="@+id/Runtime"
+          android:text="loading Runtime...."
+          android:textSize="25sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <TextView
+
+          android:id="@+id/Genre"
+          android:text="loading genre...."
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <TextView
+
+          android:id="@+id/Plot"
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="56"/>
+      <TextView
+
+          android:id="@+id/Director"
+          android:textSize="25dp"
+          android:text="loading directors"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:id="@+id/Actors"
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="loading actors..."/>
+      <TextView
+
+          android:id="@+id/Imdb"
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="loading IMDB..."/>
+      <TextView
+
+          android:id="@+id/Language"
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="loading languages..."/>
+      <TextView
+
+          android:id="@+id/Writer"
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="loading writers..."/>
+
+      <TextView
+
+          android:id="@+id/Awards"
+          android:textSize="25dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="loading awards..."/>
+
+
+
+  </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>
